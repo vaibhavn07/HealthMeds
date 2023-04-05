@@ -1,0 +1,99 @@
+{
+    "dates": [
+      {
+        "date": "date",
+        "times": [
+          {
+            "time": "time",
+            "timeSlot": [
+              {
+                "reference": "string",
+                "start": "dateTime",
+                "end": "dateTime",
+                "practicePlace": {
+                  "reference": "string",
+                  "label": "string",
+                  "tel": "string",
+                  "address": {
+                    "id": 118,
+                    "street": "Avenue De-Luserna 17",
+                    "canton": "Genéve",
+                    "commune": "Genève",
+                    "district": "Genève",
+                    "npa": "1203",
+                    "locality": "Genève",
+                    "location": null
+                  },
+                  "doctor": {
+                    "reference": "p2B5oVIHUzC37kWLeUi6",
+                    "name": "Dr. Mark SARTORIUS",
+                    "photoUrl": "http://83.166.136.134/agendastorage/m-2.jpg",
+                    "specialty": "Médecine interne générale "
+                  }
+                }
+              },
+              {
+                "reference": "string",
+                "start": "dateTime",
+                "end": "dateTime",
+                "practicePlace": {
+                  "reference": "string",
+                  "label": "string",
+                  "tel": "string",
+                  "doctor": {
+                    "name": "string",
+                    "gln": "string"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "time": "time",
+            "timeSlot": [
+              {
+                "reference": "string",
+                "start": "dateTime",
+                "end": "dateTime",
+                "practicePlace": {
+                  "reference": "string",
+                  "label": "string",
+                  "tel": "string",
+                  "address": {
+                    "id": 118,
+                    "street": "Avenue De-Luserna 17",
+                    "canton": "Genéve",
+                    "commune": "Genève",
+                    "district": "Genève",
+                    "npa": "1203",
+                    "locality": "Genève",
+                    "location": null
+                  },
+                  "doctor": {
+                    "reference": "p2B5oVIHUzC37kWLeUi6",
+                    "name": "Dr. Mark SARTORIUS",
+                    "photoUrl": "http://83.166.136.134/agendastorage/m-2.jpg",
+                    "specialty": "Médecine interne générale "
+                  }
+                }
+              },
+              {
+                "reference": "string",
+                "start": "dateTime",
+                "end": "dateTime",
+                "practicePlace": {
+                  "reference": "string",
+                  "label": "string",
+                  "tel": "string",
+                  "doctor": {
+                    "name": "string",
+                    "gln": "string"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

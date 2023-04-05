@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doctors Appointment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/001b9c757e.js" crossorigin="anonymous"></script>
+  </head>
+  
+  <body class="bg-light">
+    
+    <div class="container-xxl">
+      <div class="py-5 text-center">
+        <!-- <i class="d-block mx-auto mb-4  fa-solid fa-laptop-medical" width="72" height="72"></i> -->
+        <img class="d-block mx-auto mb-4" src="https://th.bing.com/th/id/R.29f30daa8104f7a29c8249fce8da2700?rik=Yv%2fVlSw6%2b4yRLg&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_293201.png&ehk=opitwFOtCYbJQHYIJwvJ2unz9hXWz5lHpQsduR8H5dA%3d&risl=&pid=ImgRaw&r=0" alt="" width="72" height="72">
+        <h2 class="text-bg-success">APPOINT MY DOCTOR</h2>
+        <h5>Please Enter Patients Details</h5>
+        <p class="lead">Fill the form below and submit your query we will contact you as soon as possible.</p>
+      </div>
+    
+      
+        <div class="container ">
+        
+          <!-- <h4 class="mb-3">Billing address</h4> -->
+          <form class="needs-validation" novalidate="">
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="firstName">First name</label>
+                <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  Valid first name is required.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="lastName">Last name</label>
+                <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+                <div class="invalid-feedback">
+                  Valid last name is required.
+                </div>
+              </div>
+            </div>
+
+      
+            <div class="col-md-5 mb-3">
+              <label for="gender">Gender</label>
+              <select class="custom-select d-block w-100" id="gender" required="">
+                <option value="">Choose...</option>
+                <option id="male" name="gender" value="male">Male</option>
+                <option id="female" name="gender" value="female">Female</option>
+              </select>
+              
+            </div>
+    
+            <div class="mb-3">
+              <label for="age">Age</label>
+              <div class="input-group">
+                <!-- <div class="input-group-prepend">
+                  <span class="input-group-text">@</span>
+                </div> -->
+                <input type="number" class="form-control" id="age" placeholder="Enter age" required="">
+                <div class="invalid-feedback" style="width: 100%;">
+                  Your age is required.
+                </div>
+              </div>
+            </div>
+
+        
+            <div class="mb-3">
+              <label for="mobile">Mobile </label>
+              <input type="number" class="form-control" id="mobile" placeholder="9999999999">
+              <div class="invalid-feedback">
+                Please enter a valid number for updates.
+              </div>
+            </div>
+    
+            <div class="mb-3">
+              <label for="email">Email <span class="text-muted">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@gmail.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for updates.
+              </div>
+            </div>
+    
+            <div class="mb-3">
+              <label for="address">Address</label>
+              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
+              <div class="invalid-feedback">
+                Please enter your address.
+              </div>
+            </div>
+    
+            <!-- <div class="mb-3">
+              <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+            </div> -->
+    
+            <div class="row">
+              <div class="col-md-5 mb-3">
+                <label for="country">Country</label>
+                <select class="custom-select d-block w-100" id="country" required="">
+                  <option value="">Choose...</option>
+                  <option>India</option>
+                  
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid country.
+                </div>
+              </div>
+              <div class="col-md-4 mb-3">
+                <label for="state">State</label>
+                <select class="custom-select d-block w-100" id="state" required="">
+                  <option value="">Choose...</option>
+                  <option>Maharashtra</option>
+                  <option>Uttar Pradesh</option>
+                  <option>Tamil nadu</option>
+                  <option>Karnataka</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please provide a valid state.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="zip">Zip</label>
+                <input type="text" class="form-control" id="zip" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Zip code required.
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="heartcheckup">
+              <label class="custom-control-label" for="heartcheckup">Heart Checkup</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="eyecheckup">
+              <label class="custom-control-label" for="eyecheckup">Eye Checkup</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="hearingtest">
+              <label class="custom-control-label" for="hearingtest">Hearing Test</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="bloodtest">
+              <label class="custom-control-label" for="bloodtest">Blood Test</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="general">
+              <label class="custom-control-label" for="general">General Consulting</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="skincare">
+              <label class="custom-control-label" for="skincare">Skin Care</label>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Mention details of previous consulting with us.</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <hr class="mb-4">
+    
+            <h4 class="mb-3">Payment</h4>
+    
+            <div class="d-block my-3">
+              <div class="custom-control custom-radio">
+                <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked="" required="">
+                <label class="custom-control-label" for="credit">Credit card</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                <label class="custom-control-label" for="debit">Debit card</label>
+              </div>
+              <div class="custom-control custom-radio">
+                <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required="">
+                <label class="custom-control-label" for="paypal">PayPal</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 mb-3">
+                <label for="cc-name">Name on card</label>
+                <input type="text" class="form-control" id="cc-name" placeholder="" required="">
+                <small class="text-muted">Full name as displayed on card</small>
+                <div class="invalid-feedback">
+                  Name on card is required
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="cc-number">Credit card number</label>
+                <input type="text" class="form-control" id="cc-number" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Credit card number is required
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 mb-3">
+                <label for="cc-expiration">Expiration</label>
+                <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Expiration date required
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="cc-cvv">CVV</label>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
+                <div class="invalid-feedback">
+                  Security code required
+                </div>
+              </div>
+            </div>
+            <hr class="mb-4">
+            <button class="btn btn-success btn-lg btn-block" type="submit">Book Appointment</button>
+          </form>
+        
+      </div>
+    
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">© 2023-2030 Medicio</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacy</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+      </footer>
+    </div>
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+          <script>window.jQuery || document.write('<script src="/docs/4.6/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    
+          
+            <script src="form-validation.js"></script>
+      
+    
+    </body>
+    
+</html>

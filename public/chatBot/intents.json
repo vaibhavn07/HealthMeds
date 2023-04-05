@@ -1,0 +1,228 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Greetings",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How may I help you today?",
+        "Hey! What can I help you with?",
+        "Greetings! How can I be of assistance?",
+        "Good morning! What can I help you with?",
+        "Good afternoon! How may I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "See ya",
+        "Later",
+        "Adios"
+      ],
+      "responses": [
+        "Goodbye! Take care.",
+        "Have a great day!",
+        "See you later!",
+        "Bye for now!",
+        "Farewell!",
+        "Adios!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Appreciate it",
+        "Thank you so much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "Glad to help!",
+        "My pleasure!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "Can I schedule an appointment?",
+        "How do I schedule an appointment?",
+        "I need to book an appointment",
+        "When can I see the doctor?",
+        "What's the availability for the doctor?",
+        "How soon can I see the doctor?"
+      ],
+      "responses": [
+        "Sure, we can schedule an appointment for you. What day and time works best for you?",
+        "Of course, we can schedule an appointment. When would you like to come in?",
+        "Absolutely, we can book an appointment for you. When is a good time for you?",
+        "We have availability for the doctor on [date] at [time]. Would that work for you?",
+        "The doctor is available on [date] at [time]. Would you like to book that slot?"
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "I'm experiencing some symptoms",
+        "What are the symptoms of [condition]?",
+        "How do I know if I have [condition]?",
+        "What are the signs of [condition]?",
+        "I have [symptom], [symptom], and [symptom]"
+      ],
+      "responses": [
+        "I'm sorry to hear that. What specific symptoms are you experiencing?",
+        "Some common symptoms of [condition] include [symptom], [symptom], and [symptom].",
+        "If you're concerned about having [condition], it's best to consult a doctor who can evaluate your symptoms and provide a diagnosis.",
+        "Some signs of [condition] may include [symptom], [symptom], and [symptom].",
+        "I'm sorry to hear that. Have you seen a doctor or healthcare provider about your symptoms?"
+      ]
+    },
+    {
+      "tag": "insurance",
+      "patterns": [
+        "Does your facility accept [insurance provider]?",
+        "What insurance plans do you accept?",
+        "Does my insurance cover this procedure?",
+        "How much will my insurance cover?",
+        "Do I need to pay upfront?"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Howdy",
+        "Greetings"
+      ],
+      "responses": [
+        "Hello! How can I assist you?",
+        "Hi there! How can I help?",
+        "Hey! What can I do for you today?",
+        "Howdy! What brings you here?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Take care"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "See you later!",
+        "Take care!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it",
+        "Grateful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "No problem!",
+        "Glad I could help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "What are the symptoms of COVID-19?",
+        "What are the common symptoms?",
+        "What should I look out for?",
+        "How do I know if I have COVID-19?"
+      ],
+      "responses": [
+        "Common symptoms of COVID-19 include fever, cough, and shortness of breath. Other symptoms can include body aches, headache, loss of taste or smell, and sore throat. If you think you might have COVID-19, please contact your healthcare provider.",
+        "Symptoms of COVID-19 can include fever, cough, and difficulty breathing. Other symptoms can include fatigue, body aches, headache, loss of taste or smell, and sore throat. If you have any of these symptoms, please contact your healthcare provider.",
+        "If you have a fever, cough, or difficulty breathing, it could be a sign of COVID-19. Other symptoms can include fatigue, body aches, headache, loss of taste or smell, and sore throat. Please contact your healthcare provider if you have any of these symptoms."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How can I prevent COVID-19?",
+        "What are some prevention tips?",
+        "What should I do to stay healthy?",
+        "How can I reduce my risk?"
+      ],
+      "responses": [
+        "You can help prevent the spread of COVID-19 by practicing good hand hygiene, wearing a mask, and maintaining social distance. You should also avoid large gatherings and stay home if you're feeling unwell.",
+        "To prevent the spread of COVID-19, it's important to wash your hands frequently, wear a mask when in public, and stay at least 6 feet away from others. You should also avoid large gatherings and stay home if you're feeling sick.",
+        "The best way to prevent COVID-19 is to practice good hand hygiene, wear a mask, and practice social distancing. You should also avoid large gatherings and stay home if you're feeling unwell."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "vaccines",
+      "patterns": [
+        "Are vaccines effective against COVID-19?",
+        "How do the vaccines work?",
+        "Are the vaccines safe?",
+        "When will I be eligible for a vaccine?"
+      ]
+    },
+    {
+      "tag": "Cold",
+      "patterns":[
+        "I have Cold",
+        "I am suffering from cold",
+        "cold"
+      ],
+       "responses":[ "description : A viral infection of the upper respiratory tract that causes symptoms such as cough, runny nose, and sore throat.",
+       "cause:Caused by various viruses, most commonly rhinoviruses.",
+       "symptoms: Cough, runny or stuffy nose, sore throat, mild body aches, and low-grade fever.",
+     " treatment:Rest, staying hydrated, and taking over-the-counter medications for symptom relief.",
+      "prevention:Frequent hand washing, avoiding close contact with infected individuals, and getting vaccinated against the flu."]
+    },
+    {
+      "tag": "Influenza",
+      "patterns":[
+        "I have Influenza",
+        "Influenza",
+        "respiratory problem"
+      ],
+      "responses": [ "description:A viral infection of the respiratory tract that can cause severe illness, especially in young children, the elderly, and people with weakened immune systems.",
+      "causes:Caused by the influenza virus, which is spread through the air or by touching contaminated surfaces.",
+      "symptoms: Fever, cough, sore throat, runny or stuffy nose, body aches, headache, chills, and fatigue.",
+      "treatment : Rest, staying hydrated, and taking over-the-counter medications for symptom relief. Antiviral medications may also be prescribed in some cases.",
+      "prevention: Getting vaccinated against the flu, frequent hand washing, and avoiding close contact with infected individuals."]
+    },
+    {
+      "tag": "Strep Throat",
+      "patterns":[
+        "Throat",
+        "I am feeling strep throat"
+      ],
+      "responses":  [  "description: A bacterial infection of the throat that causes symptoms such as sore throat, fever, and swollen lymph nodes.",
+      "causes: Caused by the streptococcus bacteria.",
+      "symptoms: Sore throat, fever, swollen lymph nodes, and white patches on the tonsils or throat.",
+      "treatment: Antibiotics.",
+      "prevention: Frequent hand washing, avoiding close contact with infected individuals, and covering your mouth and nose when coughing or sneezing."]
+    }
+     
+  ]
+}
